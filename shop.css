@@ -1,0 +1,33 @@
+*{
+              padding: 0px;
+              margin: 0px;
+              box-sizing: border-box;
+}
+
+#Shop-hero{
+              height: 40vh;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              background:url(ExtraThings/banner-1.jpg) no-repeat center center/cover;
+              background-position: top 20% right 10%;
+}
+#pagination{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            
+}
+#pagination div{
+              width: 40px;
+              height: 40px;
+              background-color: #01a466;
+              color: white;
+              margin: 5px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 3px;
+}
