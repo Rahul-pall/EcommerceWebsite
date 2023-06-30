@@ -21,7 +21,9 @@ document.onclick=function(e){
 }
 
 const change=document.getElementById("moon");
+const change_s=document.getElementById("s-moon");
 const header=document.getElementById("header");
+
 change.addEventListener("click",()=>{
   document.body.classList.toggle("toggle");
   if(document.body.classList.contains("toggle")){
@@ -30,5 +32,16 @@ change.addEventListener("click",()=>{
   }
   else{
     change.innerHTML=`<i class="fa-solid fa-moon"></i>`
+  }
+})
+let color=document.getElementById("color");
+change_s.addEventListener("click",()=>{
+  document.body.classList.toggle("toggle");
+  if(document.body.classList.contains("toggle")){
+    change_s.innerHTML=`<i class="fa-solid fa-sun"></i>`
+    document.getElementById("hero").style.color="black";
+  }
+  else{
+    change_s.innerHTML=`<i class="fa-solid fa-moon"></i>`
   }
 })
