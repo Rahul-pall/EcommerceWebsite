@@ -850,7 +850,7 @@ h1 {
 
       #Shop-hero.blog-bg
       {
-         background: url(image/blog.avif)no-repeat center center/cover;
+         background: url(image/flat-lay-workstation-with-copy-space-laptop_23-2148430879.webp)no-repeat center center/cover;
          color: white;
          /* background-position: top 30% right 0%; */
       }   
@@ -939,7 +939,7 @@ h1 {
    }
    #Shop-hero.about-bg
    {
-      background: url(image/about-bg.avif)no-repeat center center/cover;
+      background: url(image/about.webp)no-repeat center center/cover;
       color: white;
       background-position: top 30% right 0%;
    }  
@@ -1014,7 +1014,7 @@ h1 {
    */
 
    #Shop-hero.contact-bg {
-      background: url(image/contact-bg.avif) no-repeat center center/cover;
+      background: url(image/contact.webp) no-repeat center center/cover;
       color: white;
       background-position: top 30% right 0%;
     }
